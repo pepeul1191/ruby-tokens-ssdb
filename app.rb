@@ -15,7 +15,7 @@ end
 before do
 	headers['server'] = 'Ruby'
 	content_type :html, 'charset' => 'utf-8'
-	headers 'Access-Control-Allow-Origin' => 'http://localhost:8888'
+	#headers 'Access-Control-Allow-Origin' => 'http://localhost:8888'
 end
 
 get '/' do
